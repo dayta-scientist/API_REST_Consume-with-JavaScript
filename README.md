@@ -6,5 +6,5 @@ Course link: https://platzi.com/cursos/api/
 
 Platzi is a Latin American online education platform: https://platzi.com/
 
-Deployed link: https://dayta-scientist.github.io/API_REST-with-JavaScript/
+Deployed link: https://dayta-scientist.github.io/API_REST_Consume-with-JavaScript/
 
