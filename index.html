@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Gatitos aleatorios</title>
+</head>
+<body>
+  <h1>Kittens App</h1>
+  <span> <img src="./GLR.dev.svg" alt=""></span>
+
+  <span id="error"></span>
+
+  <section id="randomMichis">
+    <h2>Random Kittens</h2>
+
+    <article>
+      <img id="img1" width="150" alt="Foto gatito aleatorio">
+      <button id="btn1">
+        Save kitty to favorites
+      </button>
+    </article>
+
+    <article>
+      <img id="img2" width="150" alt="Foto gatito aleatorio">
+      <button id="btn2">
+        Save kitty to favorites
+      </button>
+    </article>
+    
+
+    <button onclick="loadRandomMichis()">Recharge</button>
+  </section>
+
+  <section id="uploadingMichi">
+    <h2>Upload the photo of your kitty</h2>
+
+    <form id="uploadingForm">
+      <input  id="file" type="file"  name="file" lang="en"/>
+      <button type="button" onclick="uploadMichiPhoto()">Upload photo</button>
+    </form>
+  </section>
+  
+  <section id="favoriteMichis">
+    <h2>Favorites Kittens</h2>
+
+    <article>
+      <img id="img3" width="150" alt="Foto gatito aleatorio">
+      <button>Remove kitten from favorites</button>
+    </article>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
